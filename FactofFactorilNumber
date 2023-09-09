@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+public class FactofFactorialNumbers {
+    public static void main(String args[]) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter n value");
+        System.out.println("enter n value in between 1 to 20");
+        int n=sc.nextInt();
+        int fact=1;
+        {
+            for(int i=2;i<=n;i++)
+            {
+                fact=fact*i;
+            }
+            System.out.println("fact of first"+n+"factorial numbers is"+fact);
+        }
+    }
+}
