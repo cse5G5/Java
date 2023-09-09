@@ -1,0 +1,39 @@
+import java.io.*;
+import java.util.*;
+public class NestedIfExample
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in)
+int m1,m2,m3;
+System.out.println("enter marks of three subjects");
+int m1=Sc.nextInt();
+int m2=Sc.nextInt();
+int m3=Sc.nextInt();
+Int total=m1+m2+m3;
+float Avg=(float)total/3;
+if(Avg>=75)
+{
+if(Avg>=95)
+{
+System.out.println("your Avg top in 5 percent");
+}
+else if(Avg>=90)
+{
+Syastem.out.println("your Avg is in top 10 percent");
+}
+else(Avg>=75)
+{
+System.out.println("student passed in distriction");
+}
+}
+else if(Avg>=40&&Avg<75)
+{
+System.out.println("student passed");
+}
+else
+{
+System.out.println('student failed");
+}
+}
+}
