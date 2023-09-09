@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+public class SumofNaturalNumbers{
+public static void main(string args[]){
+Scanner sc=new Scanner(System.in)
+System.out.println("enter n value");
+System.out.println("enter n value in between 1 to 20");
+int n=sc.nextInt();
+int sum;
+{
+for(int i=1;i<=n;i++)
+{
+sum=sum+i;
+}
+System.out.println("sum of first"+n+"natural numbers is"+sum);
+}
+}
+}
