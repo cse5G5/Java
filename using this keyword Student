@@ -1,0 +1,25 @@
+import java.io.*;
+class Student {
+    int rollno;
+    String name;
+    float fee;
+    Student constructor(int rollno,String name,float fee)
+    {
+        this.rollno=rollno;
+        this.name=name;
+        this.fee=fee;
+    }
+    void display() {
+        System.out.println("Student details are");
+        System.out.println(rollno+" "+name+" "+college);
+    }
+}
+public class Demo2 {
+    public static void main(String args[]) {
+        Student s1 = new Student(988,"bhavani",64777);
+        Student s2 = new Student(899,"sravanthi",87768);
+        System.out.println("Student details are");
+        s1.display();
+        s2.display();
+    }
+}
