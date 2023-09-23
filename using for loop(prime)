@@ -1,0 +1,25 @@
+public class Prime {
+
+    public static void main(String[] args) {
+
+        int low = 23, high = 97,i,j;
+        
+        for(i=low;i<=high;i++) {
+            
+            boolean flag = false;
+
+            for(j = 2; j <= high/2; j++) {
+                // condition for nonprime number
+                if(i % j == 0) {
+                    flag = true;
+                    break;
+                }
+            }
+
+            if (!flag && low != 0 && low != 1)
+                System.out.print(low + " ");
+
+            ++low;
+        }
+    }
+}
